@@ -30,8 +30,8 @@ TOKEN = config.bot_osnova_token
 bot = telebot.TeleBot(TOKEN)
 admin = config.admin
 
-QIWI_SEC_TOKEN = ''
-wallet_number = ''  # without +
+QIWI_SEC_TOKEN = 'e16eab84d3d2f325aa07fdedca3bad5d'
+wallet_number = '79361070977'  # without +
 
 wallet_p2p = Wallet(wallet_number, p2p_sec_key=QIWI_SEC_TOKEN)
 
